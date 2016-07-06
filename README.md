@@ -1,4 +1,5 @@
 # dotfiles
-(Just without the dots)
+Used on Vagrant.
 
-just a few humble dotfiles
+all files are hardlinked to their clones in my home folder.
+very early setup, improving it as frequently as I feel necessary.
