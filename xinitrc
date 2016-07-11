@@ -50,4 +50,4 @@ fi
 
 sh ~/.fehbg &
 xbindkeys &
-exec openbox
+exec openbox-session
