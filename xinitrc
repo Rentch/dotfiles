@@ -2,10 +2,6 @@
 
 xrdb -merge ~/.Xresources
 
-
-#set background
-feh --bg-fill ~/.wallpapers/snow.jpg &
-
 #urxvt daemon
 urxvtd -q -f -o &
 
