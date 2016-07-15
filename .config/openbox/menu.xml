@@ -15,11 +15,28 @@
 				</action>
 			</item>
 		</menu>
-		
+		<menu id="Media" label="Media">
+			<item label="ncmcpp">
+				<action name="Execute">
+					<command>ncmcpp</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+			<item label="steam">
+				<action name="Excecute">
+					<command>steam</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+		</menu>		
 		<menu id="Graphics" label="Graphics">
 			<item label="Gimp">
 				<action name="Execute">
-					<command>gimp</command>
+					<command>gimp</command>;
 					<startupnotify>
 						<enabled>yes</enabled>
 					</startupnotify>
