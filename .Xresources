@@ -1,0 +1,35 @@
+
+*background:	#263238
+*foreground:	#eeffff
+*color0:		#263238
+*color8:		#546e7a
+*color1:		#f04600
+*color9:		#ff763e
+*color2:		#42d242
+*color10:		#8efa83
+*color3:		#fad430
+*color11:		#ffeb95
+*color4:		#4882ff
+*color12:		#83aaff
+*color5:		#b916d7
+*color13:		#da64ef
+*color6:		#3dd7ff
+*color14:		#8ae7ff
+*color7:		#d6d6d6
+*color15:		#eeffff
+
+Xft.dpi:		96
+Xft.antialias:	true
+Xft.rgba:		rgb
+Xft.hinting:	true
+Xft.hintstyle:	hintslight
+
+URxvt.font:				xft:DejavuSansMonoForPowerline:pixelsize=12
+URxvt.boldfont:			xft:DejavuSansMonoForPowerline:pixelsize=12:bold 
+URxvt.scrollBar:		false
+URxvt.perl-ext-common: 	matcher,foo
+URxvt.url-launcher:		usr/bin/chromium
+URxvt.keysym.M-Delete:	perl:matcher:list
+URxvt.colorUL:			#7780a1
+
+
