@@ -4,16 +4,18 @@
 	
 	<menu id="root-menu" label="Openbox">
 		
-		<menu id="Internet" label="Internet">
-			<item label="Firefox">
-				<action name="Execute">
-					<command>firefox</command>
-					<startupnotify>
-						<enabled>yes</enabled>
-						<wmclass>Firefox</wmclass>
-					</startupnotify>
+		<menu id="System" label="System">
+			<item label="Terminal">
+			    <action name="Execute">
+					<command>urxvt</command>
 				</action>
 			</item>
+			<item label="Reconfigure Openbox">
+				<action name="Reconfigure" />
+			</item>
+		</menu>	
+
+		<menu id="Internet" label="Internet">
 			<item label="Chromium">
 				<action name="Execute">
 					<command>chromium</command>
@@ -23,12 +25,12 @@
 					</startupnotify>
 				</action>
 			</item>
-
 		</menu>
+
 		<menu id="Media" label="Media">
-			<item label="ncmcpp">
+			<item label="ncmpcpp">
 				<action name="Execute">
-					<command>ncmcpp</command>
+					<command>ncmpcpp</command>
 					<startupnotify>
 						<enabled>yes</enabled>
 					</startupnotify>
@@ -48,17 +50,6 @@
 						<enabled>yes</enabled>
 					</startupnotify>
 				</action>
-			</item>
-		</menu>
-
-		<menu id="System" label="System">
-			<item label="Terminal">
-			    <action name="Execute">
-					<command>urxvt</command>
-				</action>
-			</item>
-			<item label="Reconfigure Openbox">
-				<action name="Reconfigure" />
 			</item>
 		</menu>
 
