@@ -17,6 +17,4 @@ udiskie &
 #keybinds for laptop
 xbindkeys &
 
-xrandr --output LVDS-0 --off --output VGA-0 --output DP-0 --left-of VGA-0
-
 exec openbox-session
