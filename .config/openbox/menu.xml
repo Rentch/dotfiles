@@ -10,6 +10,11 @@
 					<command>urxvt</command>
 				</action>
 			</item>
+			<item label="File Manager">
+			    <action name="Execute">
+					<command>thunar</command>
+				</action>
+			</item>
 			<item label="Reconfigure Openbox">
 				<action name="Reconfigure" />
 			</item>
