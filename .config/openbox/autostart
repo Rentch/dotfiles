@@ -16,4 +16,5 @@
 #
 #xfce-mcs-manager &
 
+compton &
 sh ~/.fehbg &
