@@ -17,4 +17,5 @@
 #xfce-mcs-manager &
 
 compton &
+~/scripts/lemonbar/bar.sh | lemonbar -b -g 500x33+1770+10 &
 sh ~/.fehbg &
