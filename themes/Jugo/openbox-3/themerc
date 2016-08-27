@@ -3,13 +3,12 @@
 !# Updated 08.27.16
 
 #Colors
-window.active.title.bg.color: #7c9fa6
-window.inactive.title.bg.color: #78a090
-window.active.label.text.color: #f0f0f0
-window.inactive.label.text.color: #f0f0f0
-window.*.button.*.image.color: #f0f0f0
-menu*.bg.color: #f0f0f0
-menu*.text.color: #70838c
+window.active.title.bg.color: #f3a575
+window.inactive.title.bg.color: #b0cdc5
+window.active.label.text.color: #52484e
+window.inactive.label.text.color: #52484e
+window.*.button.*.image.color: #52484e
+menu*.text.color: #52484e
 menu.border.color: #f0f0f0
 menu.seperator.color: #f0f0f0
 window.active.border.color: #f0f0f0
@@ -28,6 +27,12 @@ menu.border.width: 0
 menu.overlap.x: -5
 menu.overlap.y: 0
 
+#Menus
+menu.items.bg: Solid Flat
+menu.items.bg.color: #b0cdc5
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: #f3a575
+
 #Window Title Justification
 window.label.text.justify: center
 
@@ -35,4 +40,5 @@ window.label.text.justify: center
 window.*.title.bg: Solid Flat
 window.*.*.bg: Parentrelative
 
+#temp solution till I have time to go through everything
 
