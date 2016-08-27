@@ -18,18 +18,13 @@
 *color7:	#d6d6d6
 *color15:	#eeffff
 
-Xft.dpi:	96
-Xft.antialias:	true
-Xft.rgba:	rgb
-Xft.hinting:	true
-Xft.hintstyle:	hintslight
-
-##URxvt.font:			xft:dejavu:pixelsize=12
-##URxvt.boldfont:		 	xft:dejavu:pixelsize=12:bold
-URxvt.scrollBar:		false
-URxvt.perl-ext-common: 		matcher,foo
-URxvt.url-launcher:		usr/bin/chromium
-URxvt.keysym.M-Delete:		perl:matcher:list
-URxvt.colorUL:			#7780a1
+URxvt.font: xft:terminus:size=8
+URxvt.boldfont: xft:terminus:size:8:bold
+URxvt.letterSpace: 0
+URxvt.scrollBar: false
+URxvt.perl-ext-common: matcher,foo
+URxvt.url-launcher: usr/bin/chromium
+URxvt.keysym.M-Delete: perl:matcher:list
+URxvt.colorUL: #7780a1
 
 
