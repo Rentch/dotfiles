@@ -1,5 +1,5 @@
-#!/bin/sh
-#Graham's Lemonbar
+#/bin/sh
+#Tg's Lemonbar
 
 #this code ripped from the arch wiki
 Clock() {
@@ -9,7 +9,7 @@ Clock() {
 }
 
 while true; do
-	echo "%{c}%{F#4D3A33}%{B#788C87} $(Clock) %{F-}%{B-}"
+	echo "%{c}%{F#52484e}%{B#f3a575} $(Clock) %{F-}%{B-}"
 	sleep 1
 done
 #end of arch wiki code
