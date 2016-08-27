@@ -3,17 +3,17 @@
 !# Updated 08.27.16
 
 #Colors
-window.active.title.bg.color: 
-window.inactive.title.bg.color: 
-window.active.label.text.color:
-window.inactive.label.text.color: 
-window.*.button.*.image.color:
-menu*.bg.color: 
-menu*.text.color: 
-menu.border.color:
-menu.seperator.color: 
-window.active.border.color: 
-window.inactive.border.color: 
+window.active.title.bg.color: #7c9fa6
+window.inactive.title.bg.color: #78a090
+window.active.label.text.color: #f0f0f0
+window.inactive.label.text.color: #f0f0f0
+window.*.button.*.image.color: #f0f0f0
+menu*.bg.color: #f0f0f0
+menu*.text.color: #70838c
+menu.border.color: #f0f0f0
+menu.seperator.color: #f0f0f0
+window.active.border.color: #f0f0f0
+window.inactive.border.color: #f0f0f0
 
 #Window Geometry
 padding.width: 4
@@ -30,3 +30,9 @@ menu.overlap.y: 0
 
 #Window Title Justification
 window.label.text.justify: center
+
+#Title Color
+window.*.title.bg: Solid Flat
+window.*.*.bg: Parentrelative
+
+
