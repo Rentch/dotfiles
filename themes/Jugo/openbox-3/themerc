@@ -1,0 +1,32 @@
+!# Jugo
+!# Tg's personal openbox theme
+!# Updated 08.27.16
+
+#Colors
+window.active.title.bg.color: 
+window.inactive.title.bg.color: 
+window.active.label.text.color:
+window.inactive.label.text.color: 
+window.*.button.*.image.color:
+menu*.bg.color: 
+menu*.text.color: 
+menu.border.color:
+menu.seperator.color: 
+window.active.border.color: 
+window.inactive.border.color: 
+
+#Window Geometry
+padding.width: 4
+padding.height: 4
+border.width: 0
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+#Menu Geometry
+menu.border.width: 0
+menu.overlap.x: -5
+menu.overlap.y: 0
+
+#Window Title Justification
+window.label.text.justify: center
