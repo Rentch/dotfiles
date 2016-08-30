@@ -43,15 +43,26 @@
 		<menu id="Media" label="Media">
 			<item label="ncmpcpp">
 				<action name="Execute">
-					<command>ncmpcpp</command>
+					<command></command>
 					<startupnotify>
 						<enabled>yes</enabled>
 					</startupnotify>
 				</action>
 			</item>
+		</menu>		
+	
+		<menu id="Games" label="Games">
 			<item label="steam">
 				<action name="Execute">
 					<command>steam</command>
+					<startupnotify>
+						<enabled>yes</enabled>
+					</startupnotify>
+				</action>
+			</item>
+			<item label="minecraft">
+				<action name="Execute">
+					<command>minecraft</command>
 				</action>
 			</item>
 		</menu>		

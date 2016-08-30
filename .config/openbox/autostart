@@ -2,5 +2,5 @@
 # Tg 8.29.16
 
 compton &
-~/scripts/lemonbar/bar.sh | lemonbar -b -f -*-*-*-terminus-10-*-g 500x33+1770+10 &
+~/scripts/lemonbar/bar.sh | lemonbar -b -g 500x33+1770+10 &
 sh ~/.fehbg &
