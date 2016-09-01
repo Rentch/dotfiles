@@ -1,0 +1,67 @@
+# Tg's Jugo
+
+gtk-icon-sizes = "panel-menu=22,22:gtk-button=16,16"
+gtk-button-images = 1 # disables icons for buttons with text
+gtk-toolbar-style = 0 # disables text in toolbar
+gtk-auto-mnemonics = 1 # disables ugly lines under menu items
+
+style "theme-default" {
+	GtkButton :: child-dislpacement-x = 0
+	GtkButton :: child-displacement-y = 2
+	GtkButton :: default-border = {0,0,0,0}
+
+	GtkEntry :: honors-transparent-bg-hint = 1
+	GtkEntry :: state-hint = 0
+
+	GtkCheckButton :: indicator-size = 14
+	GtkCheckButton :: indicator-spacing = 3
+
+	GtkRadioButton :: indicator-size = 14
+	GtkCheckButton :: indicator-spacing = 3
+
+	GtkExpander :: expander-size = 14
+	GtkExpander :: expander-spacing = 3
+
+	GtkMenuBar :: window-dragging = 0
+	GtkMenuBar :: internal-padding = 5
+
+	GtkMenu :: horizontal-padding = 5
+	GtkMenu :: vertical-padding = 5
+
+	GtkMenuItem :: arrow-spacing = 3
+	GtkMenuItem :: toggle-spacing = 3
+
+	GtkNoteBook :: tab-overlap = 1
+
+	GtkScale :: slider-length = 14
+	GtkScale :: slider-width = 9
+	GtkScale :: trough-border = 0
+	GtkScale :: trough-side-details = 0
+
+    GtkScrollbar :: has-backward-stepper = 0
+    GtkScrollbar :: has-forward-stepper = 0
+    GtkScrollbar :: min-slider-length = 0
+    GtkScrollbar :: slider-width = 0
+    GtkScrollbar :: trough-border = 0
+    GtkScrollbar :: trough-side-details = 0
+    GtkScrollbar :: stepper-size = 0
+
+	GtkScrolledWindow :: scrollbar-spacing = 0
+    GtkScrolledWindow :: scrollbars-within-bevel = 1
+
+    GtkProgressBar :: min-vertical-bar-width = 14
+    GtkProgressBar :: min-horizontal-bar-height = 14
+
+    GtkToolbar :: internal-padding = 0
+    GtkToolbar :: shadow-type = GTK_SHADOW_NONE
+
+    GtkMenuBar :: internal-padding = 5
+    GtkMenuBar :: shadow-type = GTK_SHADOW_NONE
+
+    GtkTreeView :: expander_size = 10
+    GtkTreeView	:: odd_row_color = #ffffff
+    GtkTreeView	:: even_row_color = #ffffff
+    GtkTreeView :: vertical-separator = 0
+    GtkTreeView :: horizontal-separator = 0
+
+    WnckTasklist :: fade-overlay-rect = 0
