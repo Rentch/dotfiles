@@ -5,7 +5,7 @@ gtk-button-images = 1 # disables icons for buttons with text
 gtk-toolbar-style = 0 # disables text in toolbar
 gtk-auto-mnemonics = 1 # disables ugly lines under menu items
 
-style "theme-default" {
+style "default" {
 	GtkButton :: child-dislpacement-x = 0
 	GtkButton :: child-displacement-y = 2
 	GtkButton :: default-border = {0,0,0,0}
