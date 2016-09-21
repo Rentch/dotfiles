@@ -1,6 +1,15 @@
 # Starts With Openbox
 # Tg 8.29.16
 
+#remove screentear
 compton &
+
+#start torrents
+#rtorrent &
+
+#start lemonbar
 ~/scripts/lemonbar/bar.sh | lemonbar -b -g 500x33+1770+10 &
+
+#add background
 sh ~/.fehbg &
+

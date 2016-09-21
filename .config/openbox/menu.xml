@@ -41,9 +41,9 @@
 		</menu>
 
 		<menu id="Media" label="Media">
-			<item label="ncmpcpp">
+			<item label="Spotify">
 				<action name="Execute">
-					<command></command>
+					<command>spotify</command>
 					<startupnotify>
 						<enabled>yes</enabled>
 					</startupnotify>

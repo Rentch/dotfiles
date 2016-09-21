@@ -1,4 +1,4 @@
-#Vagrant xinitrc
+#Tg's xinitrc
 
 xrdb -merge ~/.Xresources
 
