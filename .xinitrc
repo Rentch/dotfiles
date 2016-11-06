@@ -1,11 +1,11 @@
-#Tg's xinitrc
+#xinitrc
 
 xrdb -merge ~/.Xresources
 
 #urxvt daemon
 urxvtd -q -f -o &
 
-clock &
+#clock &
 
 #pulseaudio
 pulseaudio --start &
@@ -14,7 +14,7 @@ pulseaudio --start &
 udiskie &
 
 #keybinds for laptop
-xbindkeys &
+#xbindkeys &
 
 
 exec openbox-session

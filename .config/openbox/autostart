@@ -5,6 +5,7 @@
 compton &
 
 #start torrents
+#THIS KILLS OPENBOX FIX THIS
 #rtorrent &
 
 #start lemonbar

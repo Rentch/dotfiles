@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 #Tg's Lemonbar
 
 #this code ripped from the arch wiki
